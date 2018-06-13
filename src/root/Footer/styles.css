@@ -1,0 +1,17 @@
+#footer{
+  width:100%;
+  padding:40px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #19A5B7;
+}
+#flogo{
+  width:50px;
+}
+#flogo >img{
+  width:100%;
+  display: block;
+  height:auto;
+}

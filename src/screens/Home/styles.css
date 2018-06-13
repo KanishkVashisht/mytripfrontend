@@ -1,0 +1,94 @@
+#home{
+  width:100%;
+  padding:20px 100px;
+}
+#home >h1{
+  font-weight:300;
+  color:#19A5B7;
+  font-size: 35px;
+}
+#steps{
+    padding:5% 150px;
+}
+
+.step{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:20px
+}
+
+.step-icon{
+  width:50px;
+  height:50px;
+  /*-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+background: #294A99;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #19A5B7, #02AAEB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #19A5B7, #02AAEB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.step-icon > p{
+  color:#fff;
+  font-weight:400;
+  font-size:1.5em;
+}
+
+.step-img{
+  display: block;
+   width: 100%;
+   height: auto;
+}
+#steps> .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.step-text{
+  margin-top:20px!important
+}
+
+.step-text > h2 {
+  font-weight:400;
+  color:#222;
+}
+.step-text > h3{
+  font-weight:300;
+  color:#555;
+}
+
+#fullwidegrid{
+  width:100%;
+}
+
+#buttons{
+  padding:10px 175px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#buttons > button{
+  border:1px solid #19A5B7;
+  border-radius:6px;
+  padding:15px 40px;
+}
+
+#buttons > button:hover{
+  border:1px solid #19A5B7;
+  border-radius:6px;
+  background-color:#19A5B7;
+  color:#fff;
+  padding:15px 40px;
+}
