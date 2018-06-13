@@ -12,10 +12,12 @@ class Home extends React.Component{
       <div id="home">
           <h1>Find the cheapest way to get from A to B in New York.</h1>
           <Grid id="fullwidegrid">
-
               <Grid.Row id="steps" columns={"equal"}>
                 <Grid.Column>
                         <div className="step">
+                                <div id="screenshot">
+                                    <img src={require("../../assets/ss.png")}/>
+                                </div>
                                 <div className="step-icon">
                                 <p>1</p>
                                 </div>
@@ -27,6 +29,9 @@ class Home extends React.Component{
                 </Grid.Column>
                 <Grid.Column>
                         <div className="step">
+                                <div id="screenshot">
+                                    <img src={require("../../assets/ss3.png")}/>
+                                </div>
                                 <div className="step-icon">
                                   <p>2</p>
                                 </div>
@@ -38,6 +43,9 @@ class Home extends React.Component{
                 </Grid.Column>
                 <Grid.Column>
                         <div className="step">
+                                <div id="screenshot">
+                                    <img src={require("../../assets/ss2.png")}/>
+                                </div>
                                 <div className="step-icon">
                                   <p>3</p>
                                 </div>
@@ -48,11 +56,16 @@ class Home extends React.Component{
                         </div>
                 </Grid.Column>
               </Grid.Row>
+              <Grid.Row id="buttons">
+                    <div id="appstorebutton">
+                        <img src={require("../../assets/download_apple_black.svg")}/>
+                    </div>
+                    <div id="appstorebutton">
+                        <img src={require("../../assets/ggl.png")}/>
+                    </div>
+              </Grid.Row>
           </Grid>
-          <Grid.Row id="buttons">
-                <button>Available on the App Store</button>
-                <button>Get it on Google Play</button>
-          </Grid.Row>
+
       </div>
     )
   }

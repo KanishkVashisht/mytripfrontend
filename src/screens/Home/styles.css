@@ -72,7 +72,7 @@ align-items: center;
 }
 
 #buttons{
-  padding:10px 175px;
+  padding:10px 285px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -91,4 +91,73 @@ align-items: center;
   background-color:#19A5B7;
   color:#fff;
   padding:15px 40px;
+}
+
+#screenshot{
+  height:300px;
+}
+#screenshot > img{
+  height:100%!important;
+  display: block;
+}
+
+#appstorebutton{
+  height:50px;
+}
+#appstorebutton > img{
+  height:100%!important;
+  display: block;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+
+
+
+    #navbar{
+      padding:20px 0px !important;
+    }
+
+    #home{
+      padding:0px!important;
+    }
+
+    #steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px!important;
+    }
+
+    .ui.grid{
+      margin:0px!important
+    }
+
+    #steps> .column{
+      width:100%!important;
+    }
+
+    #buttons > button{
+      background:#fff;
+      width: 70%;
+      margin:10px;
+    }
+
+
+    #buttons{
+      flex-direction: column!important;
+      padding:0px!important
+    }
+
+    #flogo {
+    width: 30px !important;
+    }
+
+    #footer{
+      padding:20px 150px !important;
+      display: block;
+    }
+
 }

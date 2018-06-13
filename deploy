@@ -1,0 +1,10 @@
+#!/bin/bash
+#Deployment Script
+echo "About to build"
+npm run build 
+echo "Build successful"
+cp -rf build ../gallofueling-firebase
+echo "Moved build to deployment directory"
+echo "Now deploying..."
+(cd ../gallofueling-firebase && firebase deploy --only hosting)
+echo "Deployment over" 
